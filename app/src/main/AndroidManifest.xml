@@ -72,8 +72,10 @@
     <activity
         android:name=".QuranAdvancedPreferenceActivity"
         android:theme="@style/QuranToolBar"
+              android:orientation="vertical"
         android:configChanges="keyboardHidden|orientation|screenSize"
         android:exported="false"/>
+    
 
     <activity
         android:name=".SearchActivity"
